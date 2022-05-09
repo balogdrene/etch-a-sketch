@@ -3,11 +3,14 @@
     --grid-rows: 1;
 }
 
-/* #container {
-    width: 150px;
-    height: 150px;
-    border: 1px solid red;
-} */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
 
 #gridcontainer {
     display: grid;
@@ -24,6 +27,6 @@
     /* margin: 0; */
 }
 
-.grid-item:hover {
+.active {
     background-color: black;
 }
